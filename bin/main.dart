@@ -17,7 +17,7 @@ void main(List<String> arguments) {
   //Change nested Object Value
   List objectValList = yamlAST.getNodeValue('object').value.getValue();
   Node node = objectValList[0];
-  node.value.setValue('helloworld');
+  node.value.setValue('HelloWorld');
 
   var outputYaml = yamlWriter.generateYamlString(yamlAST);
   writeFileContent(outputPath, outputYaml);
