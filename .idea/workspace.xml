@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef2cfb41-057d-428e-a489-2af58b31e57e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yrlvn47VhT2m8msbsORVXYohKJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="filePath" value="$PROJECT_DIR$/bin/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1236" height="323" key="GridCell.Tab.0.bottom" timestamp="1584140433128">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.0.bottom/0.0.1280.994@0.0.1280.994" timestamp="1584140433128" />
+    <state width="1236" height="323" key="GridCell.Tab.0.center" timestamp="1584140433128">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.0.center/0.0.1280.994@0.0.1280.994" timestamp="1584140433128" />
+    <state width="1236" height="323" key="GridCell.Tab.0.left" timestamp="1584140433127">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.0.left/0.0.1280.994@0.0.1280.994" timestamp="1584140433127" />
+    <state width="1236" height="323" key="GridCell.Tab.0.right" timestamp="1584140433128">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.0.right/0.0.1280.994@0.0.1280.994" timestamp="1584140433128" />
+    <state width="1236" height="323" key="GridCell.Tab.1.bottom" timestamp="1584134353386">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.1.bottom/0.0.1280.994@0.0.1280.994" timestamp="1584134353386" />
+    <state width="1236" height="323" key="GridCell.Tab.1.center" timestamp="1584134353386">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.1.center/0.0.1280.994@0.0.1280.994" timestamp="1584134353386" />
+    <state width="1236" height="323" key="GridCell.Tab.1.left" timestamp="1584134353386">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.1.left/0.0.1280.994@0.0.1280.994" timestamp="1584134353386" />
+    <state width="1236" height="323" key="GridCell.Tab.1.right" timestamp="1584134353386">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state width="1236" height="323" key="GridCell.Tab.1.right/0.0.1280.994@0.0.1280.994" timestamp="1584134353386" />
+    <state x="220" y="238" key="IDE.errors.dialog" timestamp="1583709124618">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state x="220" y="238" key="IDE.errors.dialog/0.0.1280.994@0.0.1280.994" timestamp="1583709124618" />
+    <state x="296" y="223" key="run.anything.popup" timestamp="1583708901013">
+      <screen x="0" y="0" width="1280" height="994" />
+    </state>
+    <state x="296" y="223" key="run.anything.popup/0.0.1280.994@0.0.1280.994" timestamp="1583708901013" />
+  </component>
+</project>
