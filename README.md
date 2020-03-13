@@ -52,7 +52,7 @@ Example one Output :
       - slim and flexible
       - better for configuration
     object:
-     key: HelloWorld   <- value is changed ^_^
+      key: HelloWorld   <- value is changed ^_^
       array: 
         - boolean: true
         - integer: 1
