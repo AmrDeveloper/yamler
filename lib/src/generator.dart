@@ -8,7 +8,7 @@ class YamlGenerator {
      for(var node in nodeMap.values){
         var vType = node.value.valueType;
         if(vType == ValueType.comment){
-           yamlOutput += node.value.getValue() + '\n';
+           yamlOutput += node.value.getValue();
         }
         else if(vType == ValueType.line){
           yamlOutput += '\n';
