@@ -12,6 +12,11 @@ class Tokenizer{
     _currentIndex = -1;
   }
 
+  void loadYamlContent(String path) {
+    _codeLines = path.split('\n');
+    _currentIndex = -1;
+  }
+
   String getCurrentLine(){
     return _codeLines[_currentIndex];
   }

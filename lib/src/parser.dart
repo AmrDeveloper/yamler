@@ -18,8 +18,8 @@ class YamlParser {
 
   YamlParser(this._tokenizer);
 
-  Yaml parseYamlCode(String path) {
-    _initTokenizer(path);
+  Yaml parseYamlCode(String path, bool isFile) {
+    _initTokenizer(path, isFile);
 
     LinkedHashMap<String, Node> nodesMap = LinkedHashMap();
 
@@ -95,13 +95,16 @@ class YamlParser {
     return Yaml(nodesMap);
   }
 
-  void _initTokenizer(String path) {
-    _tokenizer.loadYamlCode(path);
+  void _initTokenizer(String path, bool isFile) {
+    if (isFile) {
+      _tokenizer.loadYamlCode(path);
+    } else {
+      _tokenizer.loadYamlContent(path);
+    }
     _commentCounter = 0;
     _lineCounter = 0;
   }
 
-  //FIXME: can replace string line with _tokenizer.getPrevLine();
   Node _parseArrayNode(String line) {
     var nextLine = _tokenizer.getCurrentLine();
 
@@ -110,7 +113,7 @@ class YamlParser {
     var keyObj = _parseSingleKey(line);
     var keyScope = _getLineScope(line);
 
-    var nodeList = List();
+    var nodeList = [];
 
     while (_isArrayObject(nextLine)) {
       var scope = _getLineScope(nextLine);
@@ -161,7 +164,7 @@ class YamlParser {
     var keyObj = _parseSingleKey(line);
     var keyScope = _getLineScope(line);
 
-    var nodeList = List();
+    var nodeList = [];
 
     var nextLineScope = _getLineScope(nextLine);
 
